@@ -55,3 +55,19 @@ li {
 .container {
     background-color: #444444; /* Culoarea containerului */
 }
+
+
+.trifoi {
+    position: absolute;
+    top: 50px; /* Distanța față de marginea superioară a paginii */
+    left: 50%; /* Alinierea la mijlocul paginii pe orizontală */
+    transform: translateX(-50%); /* Centrarea orizontală exactă */
+    width: 300px; /* Ajustează dimensiunea imaginii după necesități */
+    height: 300px; /* Ajustează dimensiunea imaginii după necesități */
+}
+
+.trifoi img {
+    width: 100%; /* Asigură că imaginea ocupă întreaga suprafață a containerului */
+    height: 100%; /* Asigură că imaginea ocupă întreaga suprafață a containerului */
+    opacity: 0.7; /* Setează opacitatea imaginii la 70% */
+}
