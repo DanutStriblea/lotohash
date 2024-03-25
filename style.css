@@ -68,9 +68,6 @@ li {
     top: 0; /* Initial, poza cu trifoi este la locul ei */
     left: 50%; /* Alinierea la mijlocul paginii pe orizontală */
     transition: top 0.3s ease; /* Adaugă o tranziție pentru mișcarea în sus */
-    transform: translateX(-50%); /* Centrarea orizontală exactă */
-    width: 300px; /* Ajustează dimensiunea imaginii după necesități */
-    height: 300px; /* Ajustează dimensiunea imaginii după necesități */
 }
 
 button:active + .trifoi {
