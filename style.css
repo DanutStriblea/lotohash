@@ -35,6 +35,7 @@ button {
 
 button:hover {
     background-color: #45a049;
+    transform: scale(1.05); /* Zoom in by 5% */
 }
 
 ul {
