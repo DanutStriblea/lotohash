@@ -17,7 +17,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
+h1,h2 {
     text-align: center;
 }
 
@@ -57,6 +57,10 @@ li {
 }
 
 
+
+
+
+
 .trifoi {
     position: absolute;
     top: 50px; /* Distanța față de marginea superioară a paginii */
@@ -70,4 +74,30 @@ li {
     width: 100%; /* Asigură că imaginea ocupă întreaga suprafață a containerului */
     height: 100%; /* Asigură că imaginea ocupă întreaga suprafață a containerului */
     opacity: 0.7; /* Setează opacitatea imaginii la 70% */
+}
+
+
+
+
+/* optimized for smartphones */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%; /* Ajustează lățimea containerului pentru dispozitive mici */
+    }
+
+    .trifoi {
+        width: 200px; /* Ajustează dimensiunea imaginii pentru dispozitive mici */
+        height: 200px; /* Ajustează dimensiunea imaginii pentru dispozitive mici */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 95%; /* Ajustează lățimea containerului pentru dispozitive extra-mici */
+    }
+
+    .trifoi {
+        width: 150px; /* Ajustează dimensiunea imaginii pentru dispozitive extra-mici */
+        height: 150px; /* Ajustează dimensiunea imaginii pentru dispozitive extra-mici */
+    }
 }
